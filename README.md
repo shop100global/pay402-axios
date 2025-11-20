@@ -6,9 +6,9 @@ A powerful Axios interceptor for handling **[Pay402](https://402.finance)** paym
 
 *   **Smart Interception**: Automatically detects `402` responses.
 *   **Dual Mode**:
-    *   **Custom Pay402**: Handles specialized "gas-free" transfers by parsing payment options from the response description.
-    *   **Standard x402**: Falls back to `x402-axios` for standard payment requests.
-*   **Flexible Payments**: Extracts multiple payment options (e.g., PAY token, USDC) and lets you choose the currency.
+    *   **With Pay402**: Handles specialized "gas-free" transfers with pay402 and built in support for multiple payment options including USDT, USDC, SOL, XRP, BNB, etc.
+    *   **With x402**: Falls back to `x402-axios` for standard payment requests.
+*   **Flexible Payments**: Provides multiple payment options and lets you choose your preferred currency.
 *   **Auto-Retry**: Automatically signs the transaction and retries the original request with the proof of payment.
 
 ## Installation

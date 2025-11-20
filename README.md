@@ -78,7 +78,7 @@ const signTransaction = async (pricing: PaymentOption[], resource: string) => {
     amount: Number(preferredOption.amount),
     symbol: "PAY", // Use 'PAY' as requested
     to: preferredOption.payTo,
-    transferType: "external",
+    transferType: "internal", // for onchain transfer, use "external" (standard gas fee applies - not recommended for micro payments)
     note: `Payment for ${resource}`,
   });
   

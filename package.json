@@ -1,0 +1,39 @@
+{
+  "name": "@100pay-hq/pay402-axios",
+  "version": "1.0.0",
+  "description": "A powerful Axios interceptor for handling Pay402 payment requests with wallet integration.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shop100global/pay402-axios.git"
+  },
+  "keywords": [
+    "axios",
+    "pay402",
+    "payment",
+    "interceptor",
+    "wallet",
+    "crypto",
+    "100pay"
+  ],
+  "author": "100Pay",
+  "license": "MIT",
+  "homepage": "https://github.com/shop100global",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@types/node": "^24.10.1",
+    "axios": "^1.13.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "viem": "^2.39.3",
+    "x402-axios": "^0.7.0"
+  }
+}
